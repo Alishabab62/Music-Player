@@ -1,5 +1,5 @@
 :root {
-    --b-width: 10%;
+    --b-width: 3%;
     --a-iter-cont: infinite;
     --a-name: song;
 }
@@ -63,6 +63,12 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    
+}
+.bar1,.bar2,.bar3,.bar4,.bar5,.bar6,.bar7,.bar8,.bar9,.bar10,.bar11,.bar12{
+    opacity: 0.7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .animations {
     background-image: url('image/kesariya.jpg');
@@ -78,7 +84,7 @@
     align-items: end;
 }
 .bar1 {
-    background-color: gray;
+    background-color: black;
     width: var(--b-width);
     animation-name: var(--a-name);
     animation-duration: 0.55s;
@@ -86,7 +92,7 @@
     /* animation-delay: 1s; */
 }
 .bar2 {
-    background-color: yellow;
+    background-color: black;
     /* height: 100%; */
     width: var(--b-width);
     animation-name: var(--a-name);
@@ -94,7 +100,7 @@
     animation-iteration-count: var(--a-iter-cont);
 }
 .bar3 {
-    background-color: pink;
+    background-color: black;
     /* height: 100%; */
     width: var(--b-width);
     animation-name: var(--a-name);
@@ -102,7 +108,7 @@
     animation-iteration-count: var(--a-iter-cont);
 }
 .bar5 {
-    background-color: red;
+    background-color: black;
     /* height: 100%; */
     width: var(--b-width);
     animation-name: var(--a-name);
@@ -110,7 +116,7 @@
     animation-iteration-count: var(--a-iter-cont);
 }
 .bar6 {
-    background-color: orange;
+    background-color: black;
     /* height: 100%; */
     width: var(--b-width);
     animation-name: var(--a-name);
@@ -118,11 +124,51 @@
     animation-iteration-count: var(--a-iter-cont);
 }
 .bar7 {
-    background-color: violet;
+    background-color: black;
     /* height: 100%; */
     width: var(--b-width);
     animation-name: var(--a-name);
     animation-duration: 0.45s;
+    animation-iteration-count: var(--a-iter-cont);
+}
+.bar8 {
+    background-color: black;
+    /* height: 100%; */
+    width: var(--b-width);
+    animation-name: var(--a-name);
+    animation-duration: 0.35s;
+    animation-iteration-count: var(--a-iter-cont);
+}
+.bar9 {
+    background-color: black;
+    /* height: 100%; */
+    width: var(--b-width);
+    animation-name: var(--a-name);
+    animation-duration: 0.55s;
+    animation-iteration-count: var(--a-iter-cont);
+}
+.bar10 {
+    background-color: black;
+    /* height: 100%; */
+    width: var(--b-width);
+    animation-name: var(--a-name);
+    animation-duration: 0.49s;
+    animation-iteration-count: var(--a-iter-cont);
+}
+.bar11 {
+    background-color: black;
+    /* height: 100%; */
+    width: var(--b-width);
+    animation-name: var(--a-name);
+    animation-duration: 0.40s;
+    animation-iteration-count: var(--a-iter-cont);
+}   
+.bar12 {
+    background-color: black;
+    /* height: 100%; */
+    width: var(--b-width);
+    animation-name: var(--a-name);
+    animation-duration: 0.35s;
     animation-iteration-count: var(--a-iter-cont);
 }
 .suggestions {
@@ -136,11 +182,14 @@
 .son {
     margin: 10px;
     border: 1px solid black;
+    border-radius: 10px;
 }
 .son img {
     width: 100%;
     height: 80%;
     cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .son h3{
     margin: 5px;
